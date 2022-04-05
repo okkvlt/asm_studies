@@ -1,7 +1,9 @@
 section .text
+; Seção que armazena as instruções que serão
+; utilizadas no programa.
 
-global _start
-_start:
+global _start ; Declaração da função _start
+_start:       ; Implementação da função _start
     mov ebx, 0
     ; Registrador armazenando o primeiro
     ; argumento que será passado para
