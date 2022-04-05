@@ -14,10 +14,10 @@ section .data
     ; da variável string.
 
     ; A expressão "$-string" nada mais faz
-    ; que pegar o endereço de atual de len ($)
+    ; que pegar o endereço atual de len ($)
     ; e subtrair com o endereço de string.
 
-    ; Essa substração resulta no tamanho de string.
+    ; Essa subtração resulta no tamanho de string.
 
 section .text
 ; Seção que armazena as instruções que serão
